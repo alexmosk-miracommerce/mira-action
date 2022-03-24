@@ -1,0 +1,352 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+*{margin:0;padding:0;box-sizing:border-box}a{color:#18191f;text-decoration:none}a:hover{cursor:pointer}button:hover{cursor:pointer}.hidden{position:absolute;color:transparent;background-color:transparent;visibility:hidden;font-size:0;width:0;z-index:-99;-webkit-transform:translate(-100vw, -100vh);-ms-transform:translate(-100vw, -100vh);transform:translate(-100vw, -100vh)}[data-inviewport="fade-in"]{-webkit-transition:opacity 1s ease-in-out, -webkit-transform 1s ease-in-out;transition:opacity 1s ease-in-out, -webkit-transform 1s ease-in-out;transition:transform 1s ease-in-out, opacity 1s ease-in-out;transition:transform 1s ease-in-out, opacity 1s ease-in-out, -webkit-transform 1s ease-in-out;opacity:0;-webkit-transform:translateY(30%);-ms-transform:translateY(30%);transform:translateY(30%)}[data-inviewport="fade-in"].is-inViewport{-webkit-transform:translateY(0%);-ms-transform:translateY(0%);transform:translateY(0%);opacity:1}[data-inviewport-var="fade-in-1"]{-webkit-transition-duration:0.75s;transition-duration:0.75s}[data-inviewport-var="fade-in-2"]{-webkit-transition-duration:1s;transition-duration:1s}[data-inviewport-var="fade-in-3"]{-webkit-transition-duration:1.25s;transition-duration:1.25s}[data-inviewport-var="fade-in-4"]{-webkit-transition-duration:1.5s;transition-duration:1.5s}[data-inviewport-var="fade-in-5"]{-webkit-transition-duration:1.75s;transition-duration:1.75s}[data-inviewport-var="fade-in-6"]{-webkit-transition-duration:2s;transition-duration:2s}.intro{position:relative;min-height:30rem;overflow:hidden;background-color:#0D0377}@media (min-width: 800px){.intro{min-height:45rem}}.intro__bg{position:absolute;bottom:-1rem;width:100%}.intro__bg svg{width:100%}.intro__img{width:100%;min-height:25rem;-o-object-fit:cover;object-fit:cover}.intro__title{position:absolute;top:10%;left:50%;z-index:100;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);text-align:center}.intro__title .title__svg{margin-bottom:2rem}@media (min-width: 800px){.intro__title .title__svg{-webkit-transform:scale(1.25);-ms-transform:scale(1.25);transform:scale(1.25)}}.intro__title .title__weStand{width:100%;line-height:1.17;font-size:2rem;text-align:center;text-transform:uppercase;white-space:nowrap;color:#fff;text-shadow:0px 2px 4px rgba(0,0,0,0.25),0px 2px 4px rgba(0,0,0,0.25),0px 2px 4px rgba(0,0,0,0.25),0px 0px 2px rgba(0,11,70,0.6),0px 0px 15px #000B46}@media (min-width: 800px){.intro__title .title__weStand{font-size:3rem}}@media (min-width: 1024px){.intro__title .title__weStand{font-size:4rem}}.miraLogo__animation--text{-webkit-animation:text 5s linear infinite;animation:text 5s linear infinite}.miraLogo__animation--shadow{-webkit-animation:shadow 5s linear infinite;animation:shadow 5s linear infinite}@-webkit-keyframes text{0%,10%{fill:#fff}12%,15%{fill:#FFB2B2}17%,25%{fill:#fff}40%,90%{fill:#FFB2B2}95%,100%{fill:#fff}}@keyframes text{0%,10%{fill:#fff}12%,15%{fill:#FFB2B2}17%,25%{fill:#fff}40%,90%{fill:#FFB2B2}95%,100%{fill:#fff}}@-webkit-keyframes shadow{0%,10%{fill:#fff}12%,15%{fill:#FF0000}17%,25%{fill:#fff}40%,90%{fill:#FF0000}95%,100%{fill:#fff}}@keyframes shadow{0%,10%{fill:#fff}12%,15%{fill:#FF0000}17%,25%{fill:#fff}40%,90%{fill:#FF0000}95%,100%{fill:#fff}}#flagYellowTop{-webkit-animation:20s flagYellowTopAnimation ease-in-out infinite;animation:20s flagYellowTopAnimation ease-in-out infinite;-webkit-animation-direction:alternate;animation-direction:alternate}#flagYellowBottom{-webkit-animation:20s flagYellowBottomAnimation ease-in-out infinite;animation:20s flagYellowBottomAnimation ease-in-out infinite;-webkit-animation-direction:alternate;animation-direction:alternate}#flagBlueTop{-webkit-animation:20s flagBlueTopAnimation ease-in-out infinite;animation:20s flagBlueTopAnimation ease-in-out infinite;-webkit-animation-direction:alternate;animation-direction:alternate}#flagBlueBottom{-webkit-animation:20s flagBlueBottomAnimation ease-in-out infinite;animation:20s flagBlueBottomAnimation ease-in-out infinite;-webkit-animation-direction:alternate;animation-direction:alternate}@-webkit-keyframes flagYellowTopAnimation{0%{d:path("M-279.545 81.5199L-226.892 0.819092C105.85 186.791 94.5789 223 421.44 273.5C748.3 324 905.605 194.992 1256.48 241C1505.42 273.642 1853.78 413.178 2043.49 513C2262.16 549.025 1990.41 647.403 2069.38 703.43L2148.36 759.457L1980.22 970L1882.57 937.366C1784.9 904.732 1589.58 839.465 1394.26 774.198C1198.94 708.931 1003.62 643.663 808.304 578.395C612.984 513.128 417.664 447.861 222.345 382.594C27.0248 317.326 -168.295 252.059 -265.954 219.425L-363.614 186.791L-279.545 81.5199Z")}100%{d:path("M-279.544 81.5192L-226.891 0.818359C105.851 186.791 86.6394 294 413.5 344.5C740.361 395 862 443.5 1232 400C1550.86 362.512 1668.35 707.968 1936.5 663C2155.17 699.026 1990.41 647.402 2069.38 703.429L2148.36 759.456L1980.22 969.999L1882.57 937.366C1784.9 904.731 1589.58 839.464 1394.26 774.197C1198.94 708.93 1003.62 643.663 808.305 578.395C612.984 513.127 417.665 447.86 222.346 382.593C27.0255 317.325 -168.294 252.058 -265.954 219.424L-363.613 186.791L-279.544 81.5192Z")}}@keyframes flagYellowTopAnimation{0%{d:path("M-279.545 81.5199L-226.892 0.819092C105.85 186.791 94.5789 223 421.44 273.5C748.3 324 905.605 194.992 1256.48 241C1505.42 273.642 1853.78 413.178 2043.49 513C2262.16 549.025 1990.41 647.403 2069.38 703.43L2148.36 759.457L1980.22 970L1882.57 937.366C1784.9 904.732 1589.58 839.465 1394.26 774.198C1198.94 708.931 1003.62 643.663 808.304 578.395C612.984 513.128 417.664 447.861 222.345 382.594C27.0248 317.326 -168.295 252.059 -265.954 219.425L-363.614 186.791L-279.545 81.5199Z")}100%{d:path("M-279.544 81.5192L-226.891 0.818359C105.851 186.791 86.6394 294 413.5 344.5C740.361 395 862 443.5 1232 400C1550.86 362.512 1668.35 707.968 1936.5 663C2155.17 699.026 1990.41 647.402 2069.38 703.429L2148.36 759.456L1980.22 969.999L1882.57 937.366C1784.9 904.731 1589.58 839.464 1394.26 774.197C1198.94 708.93 1003.62 643.663 808.305 578.395C612.984 513.127 417.665 447.86 222.346 382.593C27.0255 317.325 -168.294 252.058 -265.954 219.424L-363.613 186.791L-279.544 81.5192Z")}}@-webkit-keyframes flagYellowBottomAnimation{0%{d:path("M1853.47 760.742L1746.35 705.837C1640.96 651.13 1426.71 541.32 1200.08 494.18C973.457 447.04 730.985 462.175 501.226 428.918C271.467 395.662 50.9428 313.617 -57.58 272.792L-167.843 231.77L-252.5 606.608L-135.966 619.865C-21.1726 632.922 211.894 659.436 443.22 685.751C674.547 712.067 907.612 738.58 1138.94 764.895C1370.27 791.211 1603.33 817.724 1718.12 830.783L1834.66 844.04L1853.47 760.742Z")}100%{d:path("M1853.47 760.742L1573.5 720C1422.83 563.414 1327.44 568.688 1138.94 608C912.314 560.86 776.5 422.5 543 360.5C234.5 260 57.0228 379.825 -51.5 339L-167.843 231.77L-252.5 606.608L-135.967 619.865C-21.173 632.922 211.893 659.436 443.22 685.751C674.546 712.067 907.612 738.58 1138.94 764.895C1370.27 791.211 1603.32 817.724 1718.12 830.783L1834.66 844.04L1853.47 760.742Z")}}@keyframes flagYellowBottomAnimation{0%{d:path("M1853.47 760.742L1746.35 705.837C1640.96 651.13 1426.71 541.32 1200.08 494.18C973.457 447.04 730.985 462.175 501.226 428.918C271.467 395.662 50.9428 313.617 -57.58 272.792L-167.843 231.77L-252.5 606.608L-135.966 619.865C-21.1726 632.922 211.894 659.436 443.22 685.751C674.547 712.067 907.612 738.58 1138.94 764.895C1370.27 791.211 1603.33 817.724 1718.12 830.783L1834.66 844.04L1853.47 760.742Z")}100%{d:path("M1853.47 760.742L1573.5 720C1422.83 563.414 1327.44 568.688 1138.94 608C912.314 560.86 776.5 422.5 543 360.5C234.5 260 57.0228 379.825 -51.5 339L-167.843 231.77L-252.5 606.608L-135.967 619.865C-21.173 632.922 211.893 659.436 443.22 685.751C674.546 712.067 907.612 738.58 1138.94 764.895C1370.27 791.211 1603.32 817.724 1718.12 830.783L1834.66 844.04L1853.47 760.742Z")}}@-webkit-keyframes flagBlueTopAnimation{0%{d:path("M-376.263 -357.967L-284.377 -199.556C-192.492 -41.1468 -8.72051 275.673 274.659 399.935C558.039 524.196 941.027 455.899 1232.07 565.348C1523.11 674.797 1722.2 961.993 2005.59 1086.25C2288.97 1210.51 2656.64 1171.85 2840.46 1152.5L3024.29 1133.17L2840.4 1488.67L2687.22 1448.75C2534.04 1408.84 2227.67 1329.02 1921.3 1249.18C1614.93 1169.36 1308.57 1089.53 1002.2 1009.71C695.837 929.889 389.472 850.064 83.1048 770.239C-223.262 690.414 -529.627 610.589 -682.811 570.677L-835.994 530.765L-376.263 -357.967Z")}100%{d:path("M-376.263 -357.967L-404.5 355C-312.614 513.41 132.621 398.738 416 523C690 643.149 911.458 458.051 1202.5 567.5C1493.54 676.949 1487.11 954.742 1770.5 1079C2053.87 1203.26 2656.64 1171.85 2840.46 1152.5L3024.29 1133.17L2840.4 1488.67L2687.22 1448.75C2534.04 1408.84 2227.67 1329.02 1921.3 1249.18C1614.93 1169.36 1308.57 1089.53 1002.2 1009.71C695.837 929.888 389.472 850.064 83.1048 770.239C-223.262 690.414 -529.627 610.589 -682.811 570.677L-835.994 530.764L-376.263 -357.967Z")}}@keyframes flagBlueTopAnimation{0%{d:path("M-376.263 -357.967L-284.377 -199.556C-192.492 -41.1468 -8.72051 275.673 274.659 399.935C558.039 524.196 941.027 455.899 1232.07 565.348C1523.11 674.797 1722.2 961.993 2005.59 1086.25C2288.97 1210.51 2656.64 1171.85 2840.46 1152.5L3024.29 1133.17L2840.4 1488.67L2687.22 1448.75C2534.04 1408.84 2227.67 1329.02 1921.3 1249.18C1614.93 1169.36 1308.57 1089.53 1002.2 1009.71C695.837 929.889 389.472 850.064 83.1048 770.239C-223.262 690.414 -529.627 610.589 -682.811 570.677L-835.994 530.765L-376.263 -357.967Z")}100%{d:path("M-376.263 -357.967L-404.5 355C-312.614 513.41 132.621 398.738 416 523C690 643.149 911.458 458.051 1202.5 567.5C1493.54 676.949 1487.11 954.742 1770.5 1079C2053.87 1203.26 2656.64 1171.85 2840.46 1152.5L3024.29 1133.17L2840.4 1488.67L2687.22 1448.75C2534.04 1408.84 2227.67 1329.02 1921.3 1249.18C1614.93 1169.36 1308.57 1089.53 1002.2 1009.71C695.837 929.888 389.472 850.064 83.1048 770.239C-223.262 690.414 -529.627 610.589 -682.811 570.677L-835.994 530.764L-376.263 -357.967Z")}}@-webkit-keyframes flagBlueBottomAnimation{0%{d:path("M-629.729 451.81L-506.306 443.461C-384.419 434.684 -158.073 457.074 56.5 495.5C271.074 533.927 350.586 618.729 558.329 669.5C766.072 720.272 992.5 645.5 1122 645.5C1251.5 645.5 1357.27 706.346 1357.27 706.346L1172.85 1039.66L1069.92 1010.97C968.52 982.714 762.656 925.342 558.329 868.398C354.001 811.454 148.137 754.083 -56.1912 697.138C-260.519 640.195 -466.383 582.823 -567.779 554.565L-670.711 525.879L-629.729 451.81Z")}100%{d:path("M-629.729 451.809L-506.306 443.46C-384.419 434.683 -165.073 571.074 49.5 609.5C264.074 647.927 370.257 558.728 578 609.499C785.743 660.271 845 681.499 1122 645.499C1399 609.499 1706.5 717.5 1706.5 717.5L1172.85 1039.65L1069.92 1010.97C968.52 982.712 762.656 925.341 558.329 868.397C354.001 811.453 148.137 754.081 -56.1912 697.137C-260.519 640.194 -466.383 582.821 -567.779 554.564L-670.711 525.878L-629.729 451.809Z")}}@keyframes flagBlueBottomAnimation{0%{d:path("M-629.729 451.81L-506.306 443.461C-384.419 434.684 -158.073 457.074 56.5 495.5C271.074 533.927 350.586 618.729 558.329 669.5C766.072 720.272 992.5 645.5 1122 645.5C1251.5 645.5 1357.27 706.346 1357.27 706.346L1172.85 1039.66L1069.92 1010.97C968.52 982.714 762.656 925.342 558.329 868.398C354.001 811.454 148.137 754.083 -56.1912 697.138C-260.519 640.195 -466.383 582.823 -567.779 554.565L-670.711 525.879L-629.729 451.81Z")}100%{d:path("M-629.729 451.809L-506.306 443.46C-384.419 434.683 -165.073 571.074 49.5 609.5C264.074 647.927 370.257 558.728 578 609.499C785.743 660.271 845 681.499 1122 645.499C1399 609.499 1706.5 717.5 1706.5 717.5L1172.85 1039.65L1069.92 1010.97C968.52 982.712 762.656 925.341 558.329 868.397C354.001 811.453 148.137 754.081 -56.1912 697.137C-260.519 640.194 -466.383 582.821 -567.779 554.564L-670.711 525.878L-629.729 451.809Z")}}.getInvolved{margin:3rem 0}.getInvolved__title{margin-bottom:3rem;font-size:2rem;line-height:1.17;text-align:center;color:#0D0377}@media (min-width: 800px){.getInvolved__title{font-size:2.5rem}}@media (min-width: 1024px){.getInvolved__title{font-size:3.5rem}}.getInvolved__paragraph{margin-bottom:2rem;line-height:1.625}.getInvolved__contact{display:-webkit-box;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-direction:column;-webkit-box-align:center;align-items:center;margin:1rem 0;font-family:'Open Sans';font-weight:600;line-height:1.75}.getInvolved__contact a{color:#0D0377}.getInvolved__media{max-width:100%;overflow:hidden}.getInvolved__media .media__container{display:-webkit-box;display:flex;flex-wrap:wrap;justify-content:space-around;-webkit-box-align:center;align-items:center;gap:3rem}.getInvolved__collage{position:relative;height:45rem;width:24rem;padding:1rem;margin:0 auto}@media (min-width: 800px){.getInvolved__collage{height:22rem;width:54rem}}.getInvolved__collage .collage__pic{position:absolute;padding:.5rem;background-color:#fff;box-shadow:0px 4px 4px rgba(0,0,0,0.25)}.getInvolved__collage .collage__pic--nurses{top:0;left:-20%;z-index:1}@media (min-width: 800px){.getInvolved__collage .collage__pic--nurses{top:0;left:0;z-index:2}}.getInvolved__collage .collage__pic--family{top:17%;right:-15%;z-index:2}@media (min-width: 800px){.getInvolved__collage .collage__pic--family{top:0;right:15%;z-index:1}}.getInvolved__collage .collage__pic--ambulance{top:24%;left:-.5rem;z-index:3}@media (min-width: 800px){.getInvolved__collage .collage__pic--ambulance{right:0;top:9%;left:auto;z-index:10}}.getInvolved__collage .collage__pic--ambulanceFamily{top:38%;right:-20%;z-index:4}@media (min-width: 800px){.getInvolved__collage .collage__pic--ambulanceFamily{left:6.5%;bottom:0;right:auto;z-index:5}}.getInvolved__collage .collage__pic--vanSupplies{top:48%;left:-8%;z-index:5;-o-object-fit:cover;object-fit:cover;height:12rem}@media (min-width: 800px){.getInvolved__collage .collage__pic--vanSupplies{left:35%;bottom:7%;z-index:3}}.getInvolved__collage .collage__pic--vanAid{top:60%;right:-18%;z-index:6;-o-object-fit:cover;object-fit:cover;height:10rem}@media (min-width: 800px){.getInvolved__collage .collage__pic--vanAid{top:auto;right:11%;bottom:4.5%;z-index:7}}.getInvolved__qr{padding:1rem;background-color:#F4F5F7}.note{font-family:'Open Sans';line-height:1.375em}.note__text{margin-bottom:2rem;position:relative}.note__text>*{margin-bottom:1.5rem}.note__title{margin-bottom:1.5rem;font-size:1rem;font-style:italic;font-weight:normal}.note__intro,.note__by{font-weight:600}.note__by{margin-bottom:3rem}.note__shoptalk{width:17rem;word-spacing:3px}.note__photo{right:0;bottom:0;display:block;margin:0 auto}@media (min-width: 460px){.note__photo{position:absolute}}@media (min-width: 640px){.note__photo{right:2rem}}.globalFooter{padding:1.5rem;background-color:#474A57;color:#fff;text-align:center}.globalFooter__container{display:-webkit-box;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-direction:column;-webkit-box-pack:justify;justify-content:space-between;gap:1rem}@media (min-width: 800px){.globalFooter__container{-webkit-box-orient:horizontal;-webkit-box-direction:normal;flex-direction:row}}.globalFooter a{color:#fff}body{position:relative;width:100%;margin:0 auto;min-height:100vh;font-family:'Roboto', sans-serif;font-size:16px}.container{width:100%;max-width:1440px;margin:0 auto;padding:1.5rem}
+
